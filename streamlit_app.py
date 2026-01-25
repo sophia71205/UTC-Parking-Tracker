@@ -30,6 +30,7 @@ def main():
 
     # return time stamp
     time = db_query(db, "Lot 12", "Totals")["time"]
+    time = time.strftime("%Y-%m-%d %H:%M:%S")
     st.write("Data last updated: " + time)
 
     st.write("Created by Ashley Carrera, Sophia Duke, Samuel Hunt, and Nathan Parnaby")
