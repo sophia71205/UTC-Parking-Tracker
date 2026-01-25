@@ -4,6 +4,8 @@ from firebase_admin import firestore
 import folium
 from streamlit_folium import st_folium
 
+main()
+
 def main():
 
     # connection to Firestore
